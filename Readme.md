@@ -1,0 +1,1 @@
+Resolução dos exercícios propostos durante a Piscina da 42 São Paulo.
