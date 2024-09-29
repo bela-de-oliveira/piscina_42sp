@@ -6,7 +6,7 @@
 /*   By: bela_de_oliveira <bela_de_oliveira@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 11:21:56 by bela_de_oli       #+#    #+#             */
-/*   Updated: 2024/09/29 17:38:57 by bela_de_oli      ###   ########.fr       */
+/*   Updated: 2024/09/29 17:53:27 by bela_de_oli      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,5 @@ void	ft_print_alphabet(void)
 /*int	main(void)
 {
 	ft_print_alphabet();
-	write(1, "\n", 1);
 	return(0);
 }*/

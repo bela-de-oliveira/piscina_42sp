@@ -1,30 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: bela_de_oliveira <bela_de_oliveira@stud    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/29 17:39:54 by bela_de_oli       #+#    #+#             */
-/*   Updated: 2024/09/29 17:53:20 by bela_de_oli      ###   ########.fr       */
+/*   Created: 2024/09/29 17:49:28 by bela_de_oli       #+#    #+#             */
+/*   Updated: 2024/09/29 17:52:25 by bela_de_oli      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_print_reverse_alphabet(void)
+void	ft_print_number(void)
 {
-	char	letter;
-	letter = 'z';
+	char	num;
+	num = '0';
 
-	while (letter >= 'a')
-	{write(1, &letter, 1);
-	letter--;
+	while (num <= '9')
+	{
+		write(1, &num, 1);
+		num++;
 	}
 }
 
-/*int	main(void)
+int	main(void)
 {
-	ft_print_reverse_alphabet();
-	return (0);
-}*/
+	ft_print_number();
+	return(0);
+}
